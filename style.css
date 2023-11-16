@@ -263,13 +263,13 @@ html, body {
     }
 
     .text {
-        margin-top:200px;
+        margin-top:-110px;
         margin-left: -61vw;
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(1, 15%);
         grid-template-rows: repeat(4, 34px);
-        gap: 90px;
+        gap: 50px;
         word-break: break-all;
     }
     
