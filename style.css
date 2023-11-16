@@ -22,7 +22,7 @@ html, body {
 
 
   .backlogo {
-    content: url(/weblogo1.png);
+    content: url(weblogo1.png);
     background-color: transparent;
     position: fixed;
     width: 27.010643959552954vw;
@@ -81,7 +81,7 @@ html, body {
 
 
 .leftlogo {
-    content: url(/leftlogo.png);
+    content: url(leftlogo.png);
     background-color: transparent;
     position: fixed;
     width: 2vw;
@@ -158,7 +158,7 @@ html, body {
     
     
     .leftlogo {
-        content: url(/leftlogo.png);
+        content: url(leftlogo.png);
         background-color: transparent;
         position: fixed;
         width: 4vw;
@@ -222,7 +222,7 @@ html, body {
     
     
       .backlogo {
-        content: url(/weblogo1.png);
+        content: url(weblogo1.png);
         background-color: transparent;
         position: fixed;
         width: 33.010643959552954vw;
@@ -292,7 +292,7 @@ html, body {
     
     
       .backlogo {
-        content: url(/weblogo1.png);
+        content: url(weblogo1.png);
         background-color: transparent;
         position: fixed;
         width: 50.010643959552954vw;
