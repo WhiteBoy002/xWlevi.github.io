@@ -182,22 +182,25 @@ html, body {
 
 
     .icon {
+        position: fixed;
         background-color: transparent;
         margin-top: 0;
-        margin-right: 60px;
+        margin-left:  87.8293601003764vw;
         display: grid;
-        justify-content: right;
+        justify-content: center;
         grid-template-columns: 3% ;
         grid-template-rows: 34px 34px 34px 34px;
         gap: 30px;
     }
 
     .text {
-        margin-top:200px;
-        margin-left: -61vw;
+        position: fixed;
+        bottom: 20px;
+        margin-top:2.92050209205021vw;
+        margin-left: 2vw;
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(1, 15%);
+        grid-template-columns: repeat(1, 100%);
         grid-template-rows: repeat(4, 34px);
         gap: 90px;
         word-break: break-all;
@@ -254,7 +257,7 @@ html, body {
     .icon {
         background-color: transparent;
         margin-top: 0;
-        margin-right: 60px;
+        right: 5vw;
         display: grid;
         justify-content: right;
         grid-template-columns: 3% ;
@@ -263,11 +266,11 @@ html, body {
     }
 
     .text {
-        margin-top:60px;
-        margin-left: -61vw;
+        margin-top:8.695652173913043vw;
+        margin-left: 4vw;
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(1, 15%);
+        grid-template-columns: repeat(1, 100%);
         grid-template-rows: repeat(4, 34px);
         gap: 50px;
         word-break: break-all;
@@ -286,7 +289,7 @@ html, body {
         width: 60vw;
         height: 60vw;
         top: 20vw ;
-        left: 22vw;
+        left: 24vw;
     
     }
     
@@ -298,7 +301,7 @@ html, body {
         width: 50.010643959552954vw;
         height: 50.010643959552954vw;
         top: 22vw;
-        left: 27vw;
+        left: 29vw;
       }
 
 
@@ -313,88 +316,51 @@ html, body {
         animation: wave 2000ms ease alternate infinite;
         position: fixed;
         top: 58vw;
-        left: 24vw;
+        left: 26.5vw;
     }
     
     
   }
 
-  @media only screen 
-    and (width : 375px) 
-    and (height : 812px)
-    and (orientation : portrait)  
-    and (-webkit-device-pixel-ratio : 3) { 
-        .bottomleft {
-            background-color: transparent;
-            position: fixed;
-            width: 30vw;
-            height: 7vw;
-            top: 1vw;
-            left: 33vw;
-        }
-        
-        
-        
-        .leftlogo {
-            content: url(leftlogo.png);
-            background-color: transparent;
-            position: fixed;
-            width: 4vw;
-            height: 4vw;
-            top: 1vw;
-            left: 0.3vw;
-        
-        }
-        
-        .lefttext {
-            position: fixed;
-            font-family: 'Inter', sans-serif;
-            font-size: 4vw;
-            color: white;
-            left: 5vw;
-            margin-top: -0.7vw;
-        }
-        
-    
-    
-    
-    
+
+    @media only screen and (max-width: 500px) {
+        /* For mobile phones: */
         .icon {
             background-color: transparent;
             margin-top: 0;
-            margin-right: 60px;
+            right: 5vw;
             display: grid;
-            justify-content: left;
+            justify-content: right;
             grid-template-columns: 3% ;
             grid-template-rows: 34px 34px 34px 34px;
             gap: 30px;
         }
     
         .text {
-            margin-top:200px;
-            margin-left: -61vw;
+            margin-top:8.695652173913043vw;
+            margin-left: 4vw;
             display: grid;
             justify-content: center;
-            grid-template-columns: repeat(1, 15%);
+            grid-template-columns: repeat(1, 100%);
             grid-template-rows: repeat(4, 34px);
-            gap: 90px;
+            gap: 50px;
             word-break: break-all;
         }
         
         .h1style {
             font-family: 'Inter', sans-serif;
             text-align: top;
-            font-size: 1.5em; /* Use vw for font size */
+            font-size: 4vw; /* Use vw for font size */
             color: #ffffff;
         }
     
         .back2 {
             position: fixed;
             background-color: transparent;
-            width: 40vw;
-            height: 40vw;
-            top: 20vw ;
-            left: 27.5vw;
+            width: 60vw;
+            height: 60vw;
+            top: 47vw ;
+            left: 24vw;
         
         }
         
@@ -403,25 +369,96 @@ html, body {
             content: url(weblogo1.png);
             background-color: transparent;
             position: fixed;
-            width: 33.010643959552954vw;
-            height: 33.010643959552954vw;
-            top: 22vw;
-            left: 30.16711016498137vw;
+            width: 50.010643959552954vw;
+            height: 50.010643959552954vw;
+            top: 43vw;
+            left: 29vw;
           }
     
     
           .xwlevi {
             word-wrap: break-word;
             font-family: 'Holtwood One SC', serif;
-            font-size: 7.812134113890367vw;
+            font-size: 10.812134113890367vw;
             background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, rgba(225, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(#354AAB 52%, rgb(224, 246, 255) 60%, rgb(78, 99, 132) 61%);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: wave 2000ms ease alternate infinite;
             position: fixed;
-            top: 46vw;
-            left: 27.9vw;
+            top: 78vw;
+            left: 26.5vw;
         }
+        
+        
+      }
 
-    }
+      @media only screen and (max-width: 380px) {
+        /* For mobile phones: */
+        .icon {
+            background-color: transparent;
+            margin-top: 0;
+            right: 5vw;
+            display: grid;
+            justify-content: right;
+            grid-template-columns: 3% ;
+            grid-template-rows: 34px 34px 34px 34px;
+            gap: 30px;
+        }
+    
+        .text {
+            margin-top:8.695652173913043vw;
+            margin-left: 4vw;
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(1, 100%);
+            grid-template-rows: repeat(4, 34px);
+            gap: 50px;
+            word-break: break-all;
+        }
+        
+        .h1style {
+            font-family: 'Inter', sans-serif;
+            text-align: top;
+            font-size: 4vw; /* Use vw for font size */
+            color: #ffffff;
+        }
+    
+        .back2 {
+            position: fixed;
+            background-color: transparent;
+            width: 60vw;
+            height: 60vw;
+            top: 70vw ;
+            left: 24vw;
+        
+        }
+        
+        
+          .backlogo {
+            content: url(weblogo1.png);
+            background-color: transparent;
+            position: fixed;
+            width: 50.010643959552954vw;
+            height: 50.010643959552954vw;
+            top: 70vw;
+            left: 29vw;
+          }
+    
+    
+          .xwlevi {
+            word-wrap: break-word;
+            font-family: 'Holtwood One SC', serif;
+            font-size: 10.812134113890367vw;
+            background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, rgba(225, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(#354AAB 52%, rgb(224, 246, 255) 60%, rgb(78, 99, 132) 61%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: wave 2000ms ease alternate infinite;
+            position: fixed;
+            top: 108vw;
+            left: 26.5vw;
+        }
+        
+        
+      }
