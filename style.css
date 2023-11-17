@@ -429,7 +429,7 @@ html, body {
             background-color: transparent;
             width: 60vw;
             height: 60vw;
-            top: 70vw ;
+            top: 48vw ;
             left: 24vw;
         
         }
@@ -441,7 +441,7 @@ html, body {
             position: fixed;
             width: 50.010643959552954vw;
             height: 50.010643959552954vw;
-            top: 70vw;
+            top: 42vw;
             left: 29vw;
           }
     
@@ -456,7 +456,7 @@ html, body {
             -webkit-text-fill-color: transparent;
             animation: wave 2000ms ease alternate infinite;
             position: fixed;
-            top: 108vw;
+            top: 80vw;
             left: 26.5vw;
         }
         
